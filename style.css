@@ -1,0 +1,21 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main-container{
+    background-image: url(./Imgaes/predator.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 70vh;
+}
+button{
+    padding: 5px;
+    outline: none;
+    border: none;
+    width: 150px;
+    height: 60px;
+    background-color: #920603;
+    border-radius: 10px !important;
+    color: white;
+}
