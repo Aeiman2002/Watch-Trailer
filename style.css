@@ -3,12 +3,9 @@
     margin: 0;
     box-sizing: border-box;
 }
-.main-container{
-    background-image: url(./Imgaes/predator.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    height: 70vh;
-}
+/* .main-container{
+    width: 80vw;
+} */
 button{
     padding: 5px;
     outline: none;
@@ -18,4 +15,34 @@ button{
     background-color: #920603;
     border-radius: 10px !important;
     color: white;
+}
+.video-container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+    transition: opacity 0.7s;
+}
+.active.video-container{
+     visibility: hidden;
+    opacity: 0;
+}
+.video-container video {
+    position: relative;
+    max-width: 900px;
+    outline: none;
+}
+.close-icon{
+    color: black;
+}
+@media (max-width: 991px) {
+    .trailer-container video {
+        max-width: 90%;
+    }
 }
