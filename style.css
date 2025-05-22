@@ -41,8 +41,10 @@ button{
 .close-icon{
     color: black;
 }
-@media (max-width: 991px) {
-    .trailer-container video {
-        max-width: 90%;
+
+@media screen and (min-width: 0px) and (max-width: 950px) {
+    
+    .video-container video{
+        width: 180%;
     }
 }

@@ -6,6 +6,7 @@ const trailerContainer = document.querySelector(".video-container")
 
 const videoEle = document.querySelector("video")
 
+
 watchBtn.addEventListener("click" , () => {
     trailerContainer.classList.remove("active")
     
