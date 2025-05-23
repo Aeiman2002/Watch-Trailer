@@ -39,7 +39,7 @@ button{
     outline: none;
 }
 .close-icon{
-    color: black;
+    background-color: black;
 }
 
 @media screen and (min-width: 0px) and (max-width: 950px) {
