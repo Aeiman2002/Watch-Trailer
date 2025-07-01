@@ -6,6 +6,8 @@
 
 A responsive movie trailer browsing application built with HTML, CSS, Bootstrap, and JavaScript
 
+🔗 Live Demo: https://aeiman2002.github.io/Watch-Trailer/
+
 ✨ Features
 - ▶️ Embedded Trailers - Watch trailers directly in the app
 - 📱 Fully Responsive - Works on all devices
